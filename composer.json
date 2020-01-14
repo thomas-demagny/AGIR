@@ -1,0 +1,13 @@
+{
+    "name": "demag/site-agir",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Dem",
+            "email": "demagny.t@hotmail.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
