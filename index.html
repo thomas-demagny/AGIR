@@ -323,7 +323,7 @@
                 <img src="assets/img/calendar/img-fluid.png" alt="liste AGIR pour la Rivière de Corps">
             </div>
         </div>
-        <div class="row blog pt-4">
+        <div class="row blog pt-4 ml-3">
             <div class="col-md-12 col-lg-12">
                 <div id="blogcarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -463,7 +463,7 @@
                         </div>
                         <!--TEAM 5-->
                         <div class="carousel-item ">
-                            <div class="row">
+                            <div class="row justify-content-around">
                                 <div class="col-md-3">
                                     <img class="d-block w-100" src="assets/img/team/21_Gilles_DUMONT_1.jpg"
                                          alt="second slide">
@@ -532,10 +532,70 @@
             <li class="breadcrumb-item"><a href="#schedule">Programme</a></li>
             <li class="breadcrumb-item"><a href="#team">L'équipe</a></li>
             <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
-            <li class="breadcrumb-item"><a href="#modal">Mentions légales</a></li>
+            <li class="breadcrumb-item"><a href="#modal" data-toggle="modal" data-target="#modal">Mentions légales</a>
+            </li>
         </ul>
     </nav>
-    <h5 class="text-center">&copy; 2019 le nom de domaine<a href="#" target="_blank"> Thomas DEMAGNY</a></h5>
+    <!--Modal-->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="mentions" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="mentions">Mentions légales</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>MENTIONS LEGALES :</h4>
+                    <small>En vigueur au 10/01/2020</small>
+                    <p>Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour
+                        la Confiance dans l’économienumérique, dite L.C.E.N., il est porté à la connaissance des
+                        utilisateurs du site https://agir10440.fr les présentes mentions légales.<br/>
+                        La connexion et la navigation sur le site agir10440.fr par l’utilisateur implique acceptation
+                        intégrale et sans réserve des présentes mentions légales.</p>
+                    <h4>ARTICLE 1 : L’ÉDITEUR</h4>
+                    <p>L’édition et la direction de la publication du site https://agir10440.fr sont assurées par THOMAS
+                        DEMAGNY, domicilié La Rivière de Corps, dont le numéro de téléphone est 06.02.73.42.87, et l'adresse
+                        e-mail demagny.t@hotmail.fr.</p>
+
+                    <h4>ARTICLE 2 : L’HÉBERGEUR</h4>
+                    <p>L'hébergeur du site https://agir10440.fr est la Société OVH, dont le siège social est situé au 2
+                        rue Kellermann 59100 Roubaix ,avec le numéro de téléphone : 1007.</p>
+                    <h4>ARTICLE 3 : ACCÈS AU SITE</h4>
+                    <p>Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption
+                        programmée ou non et pouvantdécoulant d’une nécessité de maintenance.En cas de modification,
+                        interruption ou suspension des services le site https://agir10440.fr ne saurait être tenu
+                        responsable.</p>
+                    <h4>ARTICLE 4 : COLLECTE DES DONNÉES</h4>
+                    <p>Le site est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL) dans
+                        la mesure où il ne collecteaucune donnée concernant les utilisateurs.</p>
+
+                    <h4>ARTICLE 5 : COOKIES</h4>
+                    <p>L’utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer
+                        automatiquement sur son logiciel de navigation.En naviguant sur le site, il les accepte.<br/>Un
+                        cookie est un élément qui ne permet pas d’identifier l’Utilisateur mais sert à enregistrer des
+                        informations relatives à lanavigation de celui-ci sur le site Internet. <br/>L’utilisateur
+                        pourra désactiver ce cookie par l’intermédiaire des paramètres figurant au sein de son logiciel
+                        de navigation.</p>
+
+                    <h4>ARTICLE 6 : PROPRIÉTÉ INTELLECTUELLE</h4>
+                    <p>Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou partie du
+                        site https://agir10440.fr, sans autorisation de l’éditeur est prohibée et pourra entraînée des
+                        actions et poursuites judiciaires telles que notamment prévues par le Code de la propriété
+                        intellectuelle et le Code civil.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--end modal-->
+
+    <h5 class="text-center">&copy; 2020 Agir pour la Rivière de Corps crée par<a href="#" target="_blank"> Thomas DEMAGNY</a></h5>
 </footer>
 <!--FOOTER END-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
