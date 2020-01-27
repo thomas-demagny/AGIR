@@ -16,7 +16,9 @@ body {
     color: var(--navbar);
     background-Color: #FFFFFF;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 #schedule, #team, #contact {
 
     padding-top: 2rem;
@@ -62,7 +64,7 @@ h2 {
 }
 
 p, li {
-    font-size: 14px
+    font-size: 15px
 }
 
 a {
@@ -74,9 +76,9 @@ a {
 /*===================================
 HOME SECTION
 ====================================== */
-#home strong {
+#home b {
     color: var(--green);
-}
+    }
 
 h1 {
     text-align: center;
@@ -91,6 +93,10 @@ h1 {
 }
 .sign{
     max-width: 20%;
+}
+
+.edito{
+    margin-top : 3.5rem;
 }
 /*===================================
 CALENDAR SECTION
@@ -173,7 +179,7 @@ SCHEDULE SECTION
 .head2, .head4, .head6{
     background-color: #FFFFFF;
     border-bottom: 0.5px solid var(--navbar);
-    box-shadow: 22px ;
+
 }
 
 /*===================================
@@ -187,7 +193,7 @@ TEAM SECTION
 
 .blog .carousel-indicators li {
     background: var(--navbar);
-    border: 2px;
+    border: solid 6px;
 }
 
 .blog .carousel-indicators .active {
@@ -241,12 +247,9 @@ CONTACT SECTION
 .socialLink:hover{
     color: var(--navbar)
 }
-.qrCode {
-    max-width: 30%;
-    height: auto;
-    margin-left: 7rem;
+.contactAlign{
+    margin-left: 9rem;
 }
-
 /*===================================
 MODAL
 ====================================== */
@@ -264,4 +267,26 @@ FOOTER SECTION
 footer a, .footer-div a:hover {
     font-size: 11px;
     color: var(--navbar);
+}
+
+.scroll-top {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    display: none;
+    background-color: var(--green);
+    border: none;
+
+}
+.scroll-top:hover {
+    background-color: var(--navbar);
+
+}
+
+.scroll-top i {
+    display: inline-block;
+    color: #FFFFFF;
+    margin: -25px -8px 10px;
 }
