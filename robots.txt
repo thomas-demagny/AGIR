@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agir10440.fr/sitemap.xml
