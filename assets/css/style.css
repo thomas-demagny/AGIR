@@ -58,6 +58,13 @@ hr {
     max-width: 100%;
     border-top: 1px solid var(--green);
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 15px;
+        text-align: center;
+font-weight: bold;
+    }
+}
 
 h2 {
     text-align: left;
