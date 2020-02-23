@@ -5,6 +5,7 @@
 :root {
     --green: #3E9E47;
     --navbar: #6E706F;
+    --normalStyle: #FFFFFF;
 
 }
 
@@ -16,9 +17,11 @@ body {
     color: var(--navbar);
     background-Color: #FFFFFF;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 #schedule, #team, #contact {
 
     padding-top: 2rem;
@@ -43,7 +46,7 @@ header a {
 }
 
 a:hover {
-text-decoration: none;
+    text-decoration: none;
     color: var(--green);
 
 }
@@ -58,11 +61,12 @@ hr {
     max-width: 100%;
     border-top: 1px solid var(--green);
 }
+
 @media (max-width: 768px) {
     h1 {
-        font-size: 15px;
+        font-size: 30px;
         text-align: center;
-font-weight: bold;
+        font-weight: bold;
     }
 }
 
@@ -85,26 +89,31 @@ HOME SECTION
 ====================================== */
 #home b {
     color: var(--green);
-    }
+}
 
 h1 {
+    font-size: 40px;
     text-align: center;
     margin: 3rem 2rem;
 }
-#home p{
+
+#home p {
     font-size: 15.5px;
 }
+
 .logo {
     margin: 1.5rem;
     max-width: 40%;
 }
-.sign{
+
+.sign {
     max-width: 20%;
 }
 
-.edito{
-    margin-top : 3.5rem;
+.edito {
+    margin-top: 3.5rem;
 }
+
 /*===================================
 CALENDAR SECTION
 ====================================== */
@@ -134,6 +143,10 @@ CALENDAR SECTION
     font-weight: bold;
     line-height: 20px;
     background-color: transparent;
+}
+
+.carousel-item{
+    max-height: 409px;
 }
 
 #calendar .calendar-wrapper {
@@ -170,21 +183,22 @@ hr {
 /*===================================
 SCHEDULE SECTION
 ====================================== */
-.card{
-    border: #FFFFFF;
+.card {
+    border: var(--normalStyle);
 }
-.head1, .head3, .head5, .head7{
+
+.head1, .head3, .head5, .head7 {
     background-color: var(--navbar);
-    border: #FFFFFF;
-    color: #FFFFFF;
+    border: var(--normalStyle);
+    color: var(--normalStyle);
 }
 
-.head1 h5, .head3 h5, .head5 h5, .head7 h5{
-    color: #FFFFFF;
+.head1 h5, .head3 h5, .head5 h5, .head7 h5 {
+    color: var(--normalStyle);
 }
 
-.head2, .head4, .head6{
-    background-color: #FFFFFF;
+.head2, .head4, .head6 {
+    background-color: var(--normalStyle);
     border-bottom: 0.5px solid var(--navbar);
 
 }
@@ -207,9 +221,10 @@ TEAM SECTION
     background: var(--green);
 }
 
-.carousel-inner h3{
+.carousel-inner h3 {
     font-size: 18px;
 }
+
 /*===================================
 CONTACT SECTION
 ====================================== */
@@ -236,7 +251,7 @@ CONTACT SECTION
     color: var(--green);
 }
 
-.socialLink{
+.socialLink {
     display: inline-block;
     padding: 4px 5px;
     font-size: 12px;
@@ -245,34 +260,40 @@ CONTACT SECTION
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #fff;
+    color: var(--normalStyle);
     background-color: #4CAF50;
     border: none;
     border-radius: 6px;
     box-shadow: 0 4px var(--navbar);
 }
-.socialLink:hover{
+
+.socialLink:hover {
     color: var(--navbar)
 }
-.contactAlign{
+
+.contactAlign {
     margin-left: 9rem;
 }
+
 @media (max-width: 768px) {
-    .contactAlign{
+    .contactAlign {
         text-align: center;
         margin-left: 0;
     }
 }
+
 /*===================================
 MODAL
 ====================================== */
-#modal h4{
+#modal h4 {
     font-weight: bold;
     color: var(--green);
 }
-#modal button:hover{
+
+#modal button:hover {
     background-color: var(--green);
 }
+
 /*===================================
 FOOTER SECTION
 ====================================== */
@@ -293,6 +314,7 @@ footer a, .footer-div a:hover {
     border: none;
 
 }
+
 .scroll-top:hover {
     background-color: var(--navbar);
 
@@ -300,6 +322,6 @@ footer a, .footer-div a:hover {
 
 .scroll-top i {
     display: inline-block;
-    color: #FFFFFF;
+    color: var(--normalStyle);
     margin: -25px -8px 10px;
 }
